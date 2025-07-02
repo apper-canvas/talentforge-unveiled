@@ -1,16 +1,15 @@
-import { useState, useEffect } from 'react'
-import { useSearchParams } from 'react-router-dom'
-import { motion } from 'framer-motion'
-import FreelancerGrid from '@/components/organisms/FreelancerGrid'
-import SearchBar from '@/components/molecules/SearchBar'
-import CategorySelector from '@/components/molecules/CategorySelector'
-import ApperIcon from '@/components/ApperIcon'
+import React, { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
+import { motion } from "framer-motion";
+import ApperIcon from "@/components/ApperIcon";
+import FreelancerGrid from "@/components/organisms/FreelancerGrid";
+import SearchBar from "@/components/molecules/SearchBar";
+import CategorySelector from "@/components/molecules/CategorySelector";
 
 const SearchResultsPage = () => {
-  const [searchParams, setSearchParams] = useSearchParams()
+  const [searchParams, setSearchParams] = useSearchParams();
   const [searchQuery, setSearchQuery] = useState(searchParams.get('q') || '')
   const [selectedCategory, setSelectedCategory] = useState(searchParams.get('category') || 'all')
-  const [sortBy, setSortBy] = useState(searchParams.get('sort') || 'name')
 
   const categories = [
     'all',
@@ -22,20 +21,12 @@ const SearchResultsPage = () => {
     'Video Editing',
     'Consulting'
   ]
-
-  const sortOptions = [
-    { value: 'name', label: 'Name A-Z' },
-    { value: 'rate', label: 'Lowest Rate' },
-    { value: 'experience', label: 'Most Experience' }
-  ]
-
-  useEffect(() => {
+useEffect(() => {
     const params = new URLSearchParams()
     if (searchQuery) params.set('q', searchQuery)
     if (selectedCategory !== 'all') params.set('category', selectedCategory)
-    if (sortBy !== 'name') params.set('sort', sortBy)
     setSearchParams(params)
-  }, [searchQuery, selectedCategory, sortBy, setSearchParams])
+  }, [searchQuery, selectedCategory, setSearchParams])
 
   const handleSearch = (query) => {
     setSearchQuery(query)
@@ -44,8 +35,8 @@ const SearchResultsPage = () => {
   const clearFilters = () => {
     setSearchQuery('')
     setSelectedCategory('all')
-    setSortBy('name')
   }
+
 
   return (
     <div className="min-h-screen bg-background text-slate-100 py-8">
@@ -67,31 +58,14 @@ const SearchResultsPage = () => {
               className="mb-6"
             />
 
-            <div className="flex flex-col lg:flex-row gap-6 items-start lg:items-center justify-between">
-              <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-                <CategorySelector
-                  categories={categories}
-                  selectedCategory={selectedCategory}
-                  onCategoryChange={setSelectedCategory}
-                />
-                
-                <div className="flex items-center gap-3">
-                  <ApperIcon name="ArrowUpDown" className="w-5 h-5 text-slate-400" />
-                  <select
-                    value={sortBy}
-                    onChange={(e) => setSortBy(e.target.value)}
-                    className="px-4 py-2 bg-surface border border-slate-600 rounded-lg text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary"
-                  >
-                    {sortOptions.map((option) => (
-                      <option key={option.value} value={option.value}>
-                        {option.label}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-              </div>
+<div className="flex flex-col lg:flex-row gap-6 items-start lg:items-center justify-between">
+              <CategorySelector
+                categories={categories}
+                selectedCategory={selectedCategory}
+                onCategoryChange={setSelectedCategory}
+              />
 
-              {(searchQuery || selectedCategory !== 'all' || sortBy !== 'name') && (
+              {(searchQuery || selectedCategory !== 'all') && (
                 <button
                   onClick={clearFilters}
                   className="flex items-center gap-2 px-4 py-2 text-sm text-slate-400 hover:text-white transition-colors"
@@ -104,13 +78,11 @@ const SearchResultsPage = () => {
           </div>
         </motion.div>
 
-        {/* Results */}
+{/* Results */}
         <FreelancerGrid
           searchQuery={searchQuery}
           selectedCategory={selectedCategory}
-          sortBy={sortBy}
         />
-      </div>
     </div>
   )
 }
