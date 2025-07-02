@@ -1,0 +1,164 @@
+[
+  {
+    "Id": 1,
+    "freelancerId": 1,
+    "clientName": "Michael Chen",
+    "clientCompany": "TechFlow Solutions",
+    "rating": 5,
+    "feedback": "Sarah delivered exceptional UI/UX work that transformed our user experience. Her attention to detail and user-centered approach resulted in a 40% increase in user engagement. Highly recommended!",
+    "date": "March 2024"
+  },
+  {
+    "Id": 2,
+    "freelancerId": 1,
+    "clientName": "Jennifer Lopez",
+    "clientCompany": "Digital Ventures",
+    "rating": 5,
+    "feedback": "Working with Sarah was fantastic. She understood our vision perfectly and delivered designs that exceeded our expectations. The project was completed on time and within budget.",
+    "date": "January 2024"
+  },
+  {
+    "Id": 3,
+    "freelancerId": 2,
+    "clientName": "Robert Johnson",
+    "clientCompany": "StartupHub",
+    "rating": 5,
+    "feedback": "Marcus built a robust backend system that handles our scale perfectly. His code quality is exceptional and he provided excellent documentation. A true professional!",
+    "date": "February 2024"
+  },
+  {
+    "Id": 4,
+    "freelancerId": 2,
+    "clientName": "Lisa Anderson",
+    "clientCompany": "CloudTech Inc",
+    "rating": 5,
+    "feedback": "Outstanding full-stack development work. Marcus not only delivered on technical requirements but also provided valuable insights that improved our overall architecture.",
+    "date": "December 2023"
+  },
+  {
+    "Id": 5,
+    "freelancerId": 3,
+    "clientName": "David Wilson",
+    "clientCompany": "GrowthCorp",
+    "rating": 5,
+    "feedback": "Emily's content strategy helped us establish thought leadership in our industry. Her writing is engaging and strategic, leading to significant increases in organic traffic and lead generation.",
+    "date": "March 2024"
+  },
+  {
+    "Id": 6,
+    "freelancerId": 3,
+    "clientName": "Amanda Davis",
+    "clientCompany": "InnovateLab",
+    "rating": 5,
+    "feedback": "Excellent content creation and SEO optimization. Emily helped us rank for competitive keywords and significantly improved our online presence. Great communication throughout the project.",
+    "date": "February 2024"
+  },
+  {
+    "Id": 7,
+    "freelancerId": 4,
+    "clientName": "Thomas Brown",
+    "clientCompany": "E-commerce Plus",
+    "rating": 5,
+    "feedback": "David's digital marketing expertise drove incredible results for our campaigns. ROI increased by 300% within the first quarter. His strategic approach and attention to detail are impressive.",
+    "date": "April 2024"
+  },
+  {
+    "Id": 8,
+    "freelancerId": 4,
+    "clientName": "Sarah Miller",
+    "clientCompany": "RetailMax",
+    "rating": 5,
+    "feedback": "Professional and results-driven. David optimized our ad spend efficiently and provided detailed analytics that helped us understand our customer behavior better.",
+    "date": "March 2024"
+  },
+  {
+    "Id": 9,
+    "freelancerId": 5,
+    "clientName": "Kevin Taylor",
+    "clientCompany": "Pure Essence",
+    "rating": 5,
+    "feedback": "Lisa created a beautiful brand identity that perfectly captures our company values. The logo and visual elements have received tremendous positive feedback from our customers.",
+    "date": "February 2024"
+  },
+  {
+    "Id": 10,
+    "freelancerId": 5,
+    "clientName": "Maria Garcia",
+    "clientCompany": "Artisan Crafts",
+    "rating": 5,
+    "feedback": "Creative and professional brand design work. Lisa understood our vision and translated it into stunning visual elements that have elevated our brand presence significantly.",
+    "date": "January 2024"
+  },
+  {
+    "Id": 11,
+    "freelancerId": 6,
+    "clientName": "Alex Rodriguez",
+    "clientCompany": "FitLife Tech",
+    "rating": 5,
+    "feedback": "James developed an amazing mobile app that exceeded our expectations. The performance is excellent and the user experience is seamless across both iOS and Android platforms.",
+    "date": "January 2024"
+  },
+  {
+    "Id": 12,
+    "freelancerId": 6,
+    "clientName": "Nicole White",
+    "clientCompany": "HealthTech Solutions",
+    "rating": 5,
+    "feedback": "Outstanding mobile development skills. James delivered a high-quality app with clean code and excellent user interface. Great communication and project management throughout.",
+    "date": "December 2023"
+  },
+  {
+    "Id": 13,
+    "freelancerId": 7,
+    "clientName": "Chris Thompson",
+    "clientCompany": "BrandVision",
+    "rating": 5,
+    "feedback": "Rachel's video editing skills are top-notch. She created compelling promotional content that significantly boosted our marketing campaign effectiveness. Highly creative and professional.",
+    "date": "March 2024"
+  },
+  {
+    "Id": 14,
+    "freelancerId": 7,
+    "clientName": "Jessica Lee",
+    "clientCompany": "Creative Agency",
+    "rating": 5,
+    "feedback": "Exceptional video production and motion graphics work. Rachel brought our concepts to life with stunning visuals that perfectly matched our brand aesthetic.",
+    "date": "February 2024"
+  },
+  {
+    "Id": 15,
+    "freelancerId": 8,
+    "clientName": "Mark Harris",
+    "clientCompany": "DataDriven Corp",
+    "rating": 5,
+    "feedback": "Alex's data science expertise transformed our decision-making process. The machine learning models he built are accurate and the insights dashboard is incredibly valuable for our team.",
+    "date": "April 2024"
+  },
+  {
+    "Id": 16,
+    "freelancerId": 8,
+    "clientName": "Rachel Green",
+    "clientCompany": "Analytics Pro",
+    "rating": 5,
+    "feedback": "Outstanding data analysis and visualization work. Alex helped us uncover insights that directly contributed to a 25% increase in operational efficiency.",
+    "date": "March 2024"
+  },
+  {
+    "Id": 17,
+    "freelancerId": 9,
+    "clientName": "Daniel Kim",
+    "clientCompany": "Gourmet Bistro",
+    "rating": 5,
+    "feedback": "Sophie's photography perfectly captured the essence of our restaurant. The images have significantly improved our social media engagement and helped attract new customers.",
+    "date": "February 2024"
+  },
+  {
+    "Id": 18,
+    "freelancerId": 9,
+    "clientName": "Emily Watson",
+    "clientCompany": "Lifestyle Brand Co",
+    "rating": 5,
+    "feedback": "Professional photography that elevated our brand image. Sophie's creative eye and technical skills resulted in stunning visuals that perfectly represent our brand values.",
+    "date": "January 2024"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1,
+    "name": "Sarah Chen",
+    "title": "UI/UX Designer & Frontend Developer",
+    "avatar": "https://images.unsplash.com/photo-1494790108755-2616b9565823?w=150&h=150&fit=crop&crop=face",
+    "skills": ["UI Design", "UX Research", "React", "Figma", "Prototyping"],
+    "hourlyRate": 85,
+    "availability": "Available",
+    "bio": "Creative designer with 6+ years of experience crafting user-centered digital experiences. I specialize in transforming complex problems into elegant, intuitive solutions. My approach combines data-driven insights with creative innovation to deliver designs that not only look beautiful but drive real business results.",
+    "location": "San Francisco, CA",
+    "experience": 6
+  },
+  {
+    "Id": 2,
+    "name": "Marcus Rodriguez",
+    "title": "Full-Stack Developer",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "skills": ["React", "Node.js", "Python", "PostgreSQL", "AWS"],
+    "hourlyRate": 95,
+    "availability": "Busy",
+    "bio": "Seasoned full-stack developer passionate about building scalable web applications. With 8 years of experience across startups and enterprise companies, I bring both technical expertise and business acumen to every project. I love working with modern technologies and helping teams deliver exceptional products.",
+    "location": "Austin, TX",
+    "experience": 8
+  },
+  {
+    "Id": 3,
+    "name": "Emily Watson",
+    "title": "Content Writer & Digital Strategist",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "skills": ["Content Writing", "SEO", "Social Media", "Brand Strategy", "Copywriting"],
+    "hourlyRate": 65,
+    "availability": "Available",
+    "bio": "Strategic content creator who helps brands tell their story and connect with their audience. Over 5 years of experience in developing content strategies that drive engagement and conversions. I specialize in creating compelling narratives that resonate with target audiences across multiple platforms.",
+    "location": "New York, NY",
+    "experience": 5
+  },
+  {
+    "Id": 4,
+    "name": "David Kim",
+    "title": "Digital Marketing Specialist",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "skills": ["Google Ads", "Facebook Ads", "Analytics", "Email Marketing", "Conversion Optimization"],
+    "hourlyRate": 75,
+    "availability": "Available",
+    "bio": "Performance-driven digital marketer with a proven track record of scaling businesses through strategic campaigns. 7 years of experience in paid advertising, email marketing, and conversion optimization. I focus on ROI-driven strategies that deliver measurable results and sustainable growth.",
+    "location": "Seattle, WA",
+    "experience": 7
+  },
+  {
+    "Id": 5,
+    "name": "Lisa Thompson",
+    "title": "Brand Designer & Illustrator",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+    "skills": ["Brand Design", "Logo Design", "Illustration", "Adobe Creative Suite", "Print Design"],
+    "hourlyRate": 70,
+    "availability": "Limited",
+    "bio": "Creative brand designer passionate about bringing brands to life through visual storytelling. With 6 years of experience working with startups and established companies, I create memorable brand identities that capture the essence of businesses and resonate with their target market.",
+    "location": "Portland, OR",
+    "experience": 6
+  },
+  {
+    "Id": 6,
+    "name": "James Mitchell",
+    "title": "Mobile App Developer",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    "skills": ["React Native", "Swift", "Kotlin", "Firebase", "App Store Optimization"],
+    "hourlyRate": 90,
+    "availability": "Available",
+    "bio": "Mobile app developer specializing in cross-platform solutions that deliver native performance. 5+ years of experience building apps for iOS and Android, from concept to App Store. I focus on creating intuitive user experiences while maintaining clean, scalable code architecture.",
+    "location": "Los Angeles, CA",
+    "experience": 5
+  },
+  {
+    "Id": 7,
+    "name": "Rachel Green",
+    "title": "Video Editor & Motion Graphics Artist",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+    "skills": ["Video Editing", "Motion Graphics", "After Effects", "Premiere Pro", "Color Grading"],
+    "hourlyRate": 60,
+    "availability": "Available",
+    "bio": "Creative video editor and motion graphics artist with 4 years of experience bringing stories to life through compelling visual narratives. I specialize in creating engaging content for social media, corporate videos, and marketing campaigns that capture attention and drive engagement.",
+    "location": "Miami, FL",
+    "experience": 4
+  },
+  {
+    "Id": 8,
+    "name": "Alex Turner",
+    "title": "Data Scientist & Analytics Consultant",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face",
+    "skills": ["Python", "Machine Learning", "Data Visualization", "SQL", "Tableau"],
+    "hourlyRate": 110,
+    "availability": "Busy",
+    "bio": "Data scientist with expertise in turning raw data into actionable business insights. 7+ years of experience in machine learning, predictive analytics, and data visualization. I help companies make data-driven decisions that improve efficiency and drive growth.",
+    "location": "Boston, MA",
+    "experience": 7
+  },
+  {
+    "Id": 9,
+    "name": "Sophie Laurent",
+    "title": "Photography & Visual Content Creator",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
+    "skills": ["Photography", "Photo Editing", "Lightroom", "Brand Photography", "Social Media Content"],
+    "hourlyRate": 55,
+    "availability": "Available",
+    "bio": "Professional photographer and visual content creator specializing in lifestyle and brand photography. 5 years of experience helping businesses create compelling visual content that tells their story and connects with their audience across digital platforms.",
+    "location": "Chicago, IL",
+    "experience": 5
+  }
+]

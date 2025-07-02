@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "freelancerId": 1,
+    "senderName": "John Smith",
+    "senderEmail": "john@example.com",
+    "message": "Hi Sarah, I'm interested in discussing a UI/UX project for our new SaaS platform. Would love to schedule a call to discuss the details.",
+    "timestamp": "2024-04-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "freelancerId": 2,
+    "senderName": "Mary Johnson",
+    "senderEmail": "mary@startup.com",
+    "message": "Hello Marcus, we need a full-stack developer for our MVP development. The project involves React and Node.js. Are you available for a 3-month engagement?",
+    "timestamp": "2024-04-14T14:20:00Z"
+  },
+  {
+    "Id": 3,
+    "freelancerId": 3,
+    "senderName": "Peter Wilson",
+    "senderEmail": "peter@company.com",
+    "message": "Hi Emily, I'd like to discuss content strategy for our B2B tech company. We need help with blog posts and thought leadership content.",
+    "timestamp": "2024-04-13T09:15:00Z"
+  }
+]
